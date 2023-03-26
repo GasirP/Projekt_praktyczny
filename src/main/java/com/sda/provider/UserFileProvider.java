@@ -21,6 +21,10 @@ public class UserFileProvider implements UserProvider {
         this.filePath = filePath;
     }
 
+    public UserFileProvider() {
+
+    }
+
     @Override
     public Set<User> getAllUsers() {
         Set<User> users = new HashSet<>();
